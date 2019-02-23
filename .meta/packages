@@ -1,0 +1,7 @@
+invoke==1.2.0
+ipython==7.2.0
+layered-yaml-attrdict-config==18.12.3
+pyodbc==4.0.25
+requests==2.21.0
+SQLAlchemy==1.2.18
+xlrd==1.2.0
