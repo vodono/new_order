@@ -22,18 +22,7 @@ def excel_read(ctx):
     counterparty_sheet = wb.sheet_by_index(1)
 
     clients_list = []
-    # clients_list.append(
-    #     DenysClients(
-    #         id=10,
-    #         name='ололо10'
-    #     )
-    # )
-    # clients_list.append(
-    #     DenysClients(
-    #         id=20,
-    #         name='трололо'
-    #     )
-    # )
+
     for i in range(1, counterparty_sheet.nrows):
         values = counterparty_sheet.row_values(i)
         clients_list.append(
